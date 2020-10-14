@@ -1,0 +1,9 @@
+[
+{
+    "name": "arm_gcc",
+    "toolchainFile": "cmake/arm_gcc_toolchain.cmake",
+    "cmakeSettings": {"TargetPlatform": "STM32F4", "BSP_DIR": "target_bsp_stm32f407"},
+    "preferredGenerator": { "name": "Ninja" }
+}
+
+]
